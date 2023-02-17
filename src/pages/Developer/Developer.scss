@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+//
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.developerPage__Wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.dev_inner_wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #bc6c25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools-section {
+  width: 100%;
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools-head {
+  font-size: 3vw;
+  font-family: "MyFont", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: -1px;
+  margin-top: 3rem;
+}
+
+.toolsiconcontainer {
+  width: 107%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 40px 0px;
+}
+
+.row1,
+.row3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.row4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.row2 {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .middleBigIcon {
+    margin-left: 2.9rem;
+    margin-right: 2.75rem;
+    width: 7.5rem;
+    height: 7.5rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.iconContainer {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+
+  p {
+    font-family: "MyFont", sans-serif;
+    font-weight: 500;
+    font-size: 2.2vw;
+    margin-left: -1rem;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.toolsection2 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toolsHead {
+  font-size: 3vw;
+  font-family: "MyFont", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+.toolsiconcontainerdev {
+  width: 94.5%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}

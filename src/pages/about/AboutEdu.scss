@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.edu-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #e63946;
+  padding: 0px 10px;
+}
+
+.edu-heading {
+  width: 100%;
+}
+
+.edu-head {
+  font-family: "MyFont", sans-serif;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  z-index: 1;
+  color: #000;
+  font-weight: 600;
+}
+
+.edu-wrapper {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 200px);
+  padding-top: 80px;
+  height: 70vh;
+  width: 100%;
+}
+
+.edu-left-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  font-family: "MyFont", sans-serif;
+  width: 25%;
+  
+  @media (max-width : 920px) {
+    text-align: left;
+  }
+}
+
+.tab {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  border-left: 2px solid #000;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 2px;
+}
+
+.active {
+  background: #233554;
+  color: #64ffda;
+  border-left: 2px solid #64ffda;
+}
+
+.tab:hover {
+  background: #233554;
+  color: #64ffda;
+}
+
+.edu-right-wrap {
+  padding-left: 50px;
+  font-family: "MyFont", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 55%;
+
+  @media (max-width : 920px) {
+    text-align: left;
+  }
+
+  h1 {
+    margin: 0;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 2.4vw;
+    color : #000;
+
+    @media (max-width : 920px) {
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  h3 {
+    color: #000;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+
+    @media (max-width : 920px) {
+      font-weight: 500;
+      line-height: 20px;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.edu-r-duration {
+  font-family: "MyFont", sans-serif;
+  margin: 0;
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.edu-r-details {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.edu-r-point {
+    margin-bottom: 20px;
+    text-align: left;
+}

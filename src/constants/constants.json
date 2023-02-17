@@ -1,0 +1,33 @@
+{
+  "Educations": [
+    {
+      "Studies": "B.E",
+      "title": " Computer Science and Engineering",
+      "at": "AAA College Of Engineering and Technology, Sivakasi",
+      "duration": "Jun 2019 - Mar 2023",
+      "desc": ["CGPA Scored - 8.02" , "Percentage - 80%"]
+    },
+    {
+      "Studies": "12th Grade",
+      "title": " Higher Secondary Certificate",
+      "at": "MNMSPS Hr Sec School, Mallanginar",
+      "duration": "Jun 2017 - Apr 20219",
+      "desc": ["Marks Scored - 476/600" , "Percentage - 78%"]
+    },
+    {
+      "Studies": "10th Grade",
+      "title": "Secondary School Certificate ",
+      "at": "MNMSPS Hr Sec School, Mallanginar",
+      "duration": "Jun 2016 - Mar 2017",
+      "desc": [" Marks Scored - 476/600" , "Percentage - 95.2%"]
+    },
+    {
+      "Studies": "Other Courses",
+      "desc": [
+        "FULL STACK WEB DEVELOPMENT BOOTCAMP (MERN)",
+        "UI/UX DESIGN AND WEB & MOBILE DESIGNER COURSE",
+        "AWS CLOUD ARCHITECTING COURSE (12725)"
+      ]
+    }
+  ]
+}
