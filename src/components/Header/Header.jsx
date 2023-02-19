@@ -4,6 +4,7 @@ import { BiArrowToTop, BiMenu, BiMenuAltRight } from "react-icons/bi";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useMediaQuery } from "react-responsive";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -93,25 +94,25 @@ const Header = () => {
     }
   };
 
+  const navigate = useNavigate();
+
   return (
     <div className="header-wrapper">
       <div className="left-header link">
-        <a href="/" style={{ textDecoration: "none", color: "black" }}>
-          <h1>KMW</h1>
-        </a>
+          <h1 onClick={() => navigate("/")}>KMW</h1>
       </div>
       <div className="right-header" style={getMenuStyles(menuOpen)}>
-        <li className="link">
-          <a href="/about">About</a>
+        <li className="link" onClick={() => navigate("/about")}>
+          About
         </li>
-        <li className="link">
-        <a href="/developer">Developer</a>
-      </li>
-        <li className="link">
-          <a href="/projects">Projects</a>
+        <li className="link" onClick={() => navigate("/developer")}>
+          Developer
         </li>
-        <li className="link">
-          <a href="/dm">Contact Me</a>
+        <li className="link" onClick={() => navigate("/projects")}>
+          Projects
+        </li>
+        <li className="link" onClick={() => navigate("/dm")}>
+          Contact Me
         </li>
       </div>
       <div className="right-menu">

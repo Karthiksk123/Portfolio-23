@@ -20,10 +20,10 @@ function App() {
     });
     let cursor = new Cursor(document.getElementsByClassName("cursor")[0]);
   };
+
   return (
     <div>
       <Cursors />
-      <Header />
       <AnimatePresence>
         <BrowserRouter>
           <Routes>

@@ -9,7 +9,7 @@ import IntroAbout from "./IntroAbout";
 import AboutEdu from "./AboutEdu";
 import AboutCert from "./AboutCert";
 import AboutEnd from "./AboutEnd";
-
+import Header from "../../components/Header/Header";
 
 const About = () => {
   useEffect(() => {
@@ -29,13 +29,14 @@ const About = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 2 }}
     >
+      <Header />
       <div className="aboutpage-inner-wrapper">
         <AboutPageHero />
         <div className="lowersection-about">
           <IntroAbout />
-          <AboutEdu/>
-          <AboutCert/>
-          <AboutEnd/>
+          <AboutEdu />
+          <AboutCert />
+          <AboutEnd />
         </div>
       </div>
     </motion.div>

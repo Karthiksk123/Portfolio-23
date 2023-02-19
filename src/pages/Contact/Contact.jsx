@@ -1,10 +1,14 @@
-import React from 'react'
-import './Contact.scss'
+import React from "react";
+import Header from "../../components/Header/Header";
+import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <div>
+      <Header />
+      Contact
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

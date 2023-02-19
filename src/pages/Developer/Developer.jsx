@@ -6,11 +6,11 @@ import DeveloperIntro from "./DeveloperIntro";
 import TiltingEyes from "../../components/TiltingEyes/TiltingEyes";
 import { row1, row2, row3, row4, toolsIcons } from "../../utils/DeveloperIcons";
 import IconContainer from "../../utils/IconContainer";
-import AOS from 'aos'
+import AOS from "aos";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import DeveloperEnd from "./DeveloperEnd";
-
+import Header from "../../components/Header/Header";
 
 const Developer = () => {
   useEffect(() => {
@@ -29,6 +29,7 @@ const Developer = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 2 }}
     >
+      <Header />
       <div className="dev_inner_wrapper">
         <DeveloperHero />
         <div className="dev_lowersection">
@@ -136,7 +137,7 @@ const Developer = () => {
               ))}
             </div>
           </div>
-          <DeveloperEnd/>
+          <DeveloperEnd />
         </div>
       </div>
     </motion.div>
