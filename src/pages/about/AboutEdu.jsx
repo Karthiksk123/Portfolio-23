@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./AboutEdu.scss";
-import constants from "../../constants/constants.json";
 import AOS from "aos";
+import { Educations } from "../../constants/constants";
+
 
 const AboutEdu = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,7 +27,7 @@ const AboutEdu = () => {
             data-aos-duration="1000"
             data-aos-delay="600"
           >
-            {constants.Educations.map((edu, index) => (
+            {Educations.map((edu, index) => (
               <div
                 onClick={() => setCurrentIndex(index)}
                 className={index === currentIndex ? "tab active" : "tab"}
@@ -41,13 +42,13 @@ const AboutEdu = () => {
             data-aos-duration="1000"
             data-aos-delay="600"
           >
-            <h1>{constants.Educations[currentIndex].title}</h1>
-            <h3>{constants.Educations[currentIndex].at}</h3>
+            <h1>{Educations[currentIndex].title}</h1>
+            <h3>{Educations[currentIndex].at}</h3>
             <p className="edu-r-duration">
-              {constants.Educations[currentIndex].duration}
+              {Educations[currentIndex].duration}
             </p>
             <div className="edu-r-details">
-              {constants.Educations[currentIndex].desc.map((point) => (
+              {Educations[currentIndex].desc.map((point) => (
                 <p className="edu-r-point">
                   <li>{point}</li>
                 </p>

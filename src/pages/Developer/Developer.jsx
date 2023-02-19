@@ -9,6 +9,7 @@ import IconContainer from "../../utils/IconContainer";
 import AOS from 'aos'
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import DeveloperEnd from "./DeveloperEnd";
 
 
 const Developer = () => {
@@ -135,6 +136,7 @@ const Developer = () => {
               ))}
             </div>
           </div>
+          <DeveloperEnd/>
         </div>
       </div>
     </motion.div>

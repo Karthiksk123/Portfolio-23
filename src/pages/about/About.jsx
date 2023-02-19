@@ -7,6 +7,8 @@ import AboutPageHero from "./AboutPageHero";
 import { motion } from "framer-motion";
 import IntroAbout from "./IntroAbout";
 import AboutEdu from "./AboutEdu";
+import AboutCert from "./AboutCert";
+import AboutEnd from "./AboutEnd";
 
 
 const About = () => {
@@ -32,6 +34,8 @@ const About = () => {
         <div className="lowersection-about">
           <IntroAbout />
           <AboutEdu/>
+          <AboutCert/>
+          <AboutEnd/>
         </div>
       </div>
     </motion.div>
