@@ -6,6 +6,9 @@ import AOS from "aos";
 import "./Projects.scss";
 import { motion } from "framer-motion";
 import ProjectIntro from "./ProjectIntro";
+import Header from '../../components/Header/Header.jsx'
+import ProjectsPage from "./ProjectsPage";
+import Footer from "../../components/Footer/Footer";
 
 const Projects = () => {
   useEffect(() => {
@@ -24,10 +27,13 @@ const Projects = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 2 }}
     >
+    <Header/>
       <div className="pr-inner-wrap">
         <ProjectHero />
         <div className="pr-lowersection">
           <ProjectIntro />
+          <ProjectsPage />
+          <Footer />
         </div>
       </div>
     </motion.div>

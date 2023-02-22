@@ -22,8 +22,8 @@ const IntroAbout = () => {
         data-aos-duration="1000"
         data-aos-delay="500"
       >
-        Hey! I am a Full Stack (MERN) Developer. I have 1+ years of experience
-        in Web App Development.
+        Hey! I am currently pursuing B.E Computer Science and Engineering (Final
+        Year). I have a Project based skills in Full-Stack App Development.
       </h3>
       <h5
         className="about-intro-desc"
@@ -31,10 +31,8 @@ const IntroAbout = () => {
         data-aos-duration="1000"
         data-aos-delay="600"
       >
-        The main area of my expertise is Web Development. I can design and
-        develop slick, Interactive, Responsive and Performance Efficient Web &
-        Mobile Applications. I also have some experience of creating websites on
-        CMS like Wordpress.
+        My Primary goal is to complete a complex projects within the minimum
+        time with a greater user experience.
       </h5>
     </div>
   );

@@ -45,7 +45,6 @@ const Loader = () => {
   }, []);
   return (
     <div>
-      {" "}
       <div className="loader-container" ref={loaderRef}>
         <div className="counter-container">
           <ul className="counter-list" ref={countRef}>

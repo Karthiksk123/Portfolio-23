@@ -11,6 +11,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import DeveloperEnd from "./DeveloperEnd";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 const Developer = () => {
   useEffect(() => {
@@ -138,6 +139,7 @@ const Developer = () => {
             </div>
           </div>
           <DeveloperEnd />
+          <Footer />
         </div>
       </div>
     </motion.div>

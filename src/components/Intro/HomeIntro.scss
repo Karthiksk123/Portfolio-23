@@ -117,6 +117,10 @@
   line-height: 1;
   margin-bottom: 5vw;
   letter-spacing: -0.5px;
+
+  @media (max-width : 900px) {
+    font-size: 5vw;
+  }
 }
 
 .btn-container {

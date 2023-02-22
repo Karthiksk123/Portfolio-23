@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Header.scss";
-import { BiArrowToTop, BiMenu, BiMenuAltRight } from "react-icons/bi";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useMediaQuery } from "react-responsive";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -88,45 +88,28 @@ const Header = () => {
     }
   };
 
-  const getMenuStyles = (menuOpen) => {
-    if (document.documentElement.clientWidth <= 960) {
-      return { right: !menuOpen && "-150%" };
-    }
-  };
-
   const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="header-wrapper">
-      <div className="left-header link">
-          <h1 onClick={() => navigate("/")}>KMW</h1>
+    <div className="Navbar">
+      <span className="nav-logo link"  onClick={() => navigate("/")}>KMW</span>
+      <div className={`nav-items ${isOpen && "open"}`}>
+        <a className="link" onClick={() => navigate("/")}>
+          Home
+        </a>
+        <a className="link"  onClick={() => navigate("/about")}>About Me</a>
+        <a className="link"  onClick={() => navigate("/developer")}>Developer</a>
+        <a className="link"  onClick={() => navigate("/projects")}>Projects</a>
+        <div className="footer-m-nav">
+          <Footer />
+        </div>
       </div>
-      <div className="right-header" style={getMenuStyles(menuOpen)}>
-        <li className="link" onClick={() => navigate("/about")}>
-          About
-        </li>
-        <li className="link" onClick={() => navigate("/developer")}>
-          Developer
-        </li>
-        <li className="link" onClick={() => navigate("/projects")}>
-          Projects
-        </li>
-        <li className="link" onClick={() => navigate("/dm")}>
-          Contact Me
-        </li>
-      </div>
-      <div className="right-menu">
-        <BiMenuAltRight
-          className="menu"
-          onClick={() => setMenuOpen((prev) => !prev)}
-        />
-        <BiArrowToTop
-          id="Arrow"
-          style={{ position: "relative", top: "-200%", cursor: "pointer" }}
-          onClick={() => {
-            window.scrollTo(0, 0);
-          }}
-        />
+      <div
+        className={`nav-toggle link ${isOpen && "open"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className="bar"></div>
       </div>
     </div>
   );

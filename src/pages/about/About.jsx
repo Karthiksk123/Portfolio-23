@@ -10,6 +10,7 @@ import AboutEdu from "./AboutEdu";
 import AboutCert from "./AboutCert";
 import AboutEnd from "./AboutEnd";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 const About = () => {
   useEffect(() => {
@@ -37,6 +38,7 @@ const About = () => {
           <AboutEdu />
           <AboutCert />
           <AboutEnd />
+          <Footer/>
         </div>
       </div>
     </motion.div>

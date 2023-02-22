@@ -121,10 +121,7 @@ export const Certifications = [
   },
   {
     title: "JavaScript Programming Essentials Bootcamp",
-    Skills: [
-      "Basic Javascript Concepts",
-      "Advanced Javascript Concepts",
-    ],
+    Skills: ["Basic Javascript Concepts", "Advanced Javascript Concepts"],
     Duration: " 5 Sep 2022 - 9 Sep 2022",
     Img: require("../assets/Certifications/js.jpg"),
     link: "https://drive.google.com/file/d/17LIDz_V4azGPYbnu2OYPK-CSiZH-9pZ5/view?usp=drivesdk",
@@ -152,5 +149,64 @@ export const Certifications = [
     Duration: " 23 Aug 2022 - 27 Aug 2022",
     Img: require("../assets/Certifications/js&node.jpg"),
     link: "https://drive.google.com/file/d/1JwbXyKSbP8_XQqjYN7ItBYwG62KZveHY/view?usp=drivesdk",
+  },
+];
+
+export const ProjectShowcase = [
+  {
+    img: require("../assets/Projects/moonflix.png"),
+    name: "MoonFlix App",
+    link: "/Moonflix",
+    technologies: [
+      "MeterialUI",
+      "SwiperJs",
+      "ReactJs",
+      "ExpressJs",
+      "Mongoose",
+    ],
+    feautures: [
+      "SignIn / SigunUp / Reset password",
+      "Add / Remove movie to Favourite List",
+      "write / Delete review for movie",
+      "light / Dark theme",
+    ],
+    git: "https://github.com/Karthiksk123/Moonflix-App",
+    site: "https://moonflix-app.vercel.app/",
+  },
+  {
+    img: require("../assets/Projects/expense.png"),
+    name: "Expense tracker App",
+    link: "/Expense-Tracker-App",
+    technologies: [
+      "Html",
+      "Css",
+      "JS",
+      "ReactJs",
+      "ExpressJs",
+      "Mongoose",
+      "ChartJs",
+    ],
+    feautures: [
+      "Track Expense of activities",
+      "Fetch data from the backend",
+      "add / delete activities",
+      "chart recognized data UI",
+    ],
+    git: "https://github.com/Karthiksk123/Expense-Tracker-app",
+    site: "https://expense-tracker-app-karthiksk123.vercel.app/",
+  },
+  {
+    img: require("../assets/Projects/Starflix.png"),
+    name: "StarFlix App",
+    link: "/StarFlix-App",
+    technologies: ["Html", "Css", "JS", "ReactJs", "ExpresJs", "Mongoose"],
+    feautures: [
+      "Search movie / tv series / peoples ",
+      "Save movie to Favourite list",
+      "Trailer features available",
+      "Movie Suggestions",
+    ],
+    git: "https://github.com/Karthiksk123/StarFlix-App",
+    site: "https://starflix-app.netlify.app/",
   },
 ];
