@@ -14,10 +14,21 @@
   text-align: center;
   background-color: #e63946;
   padding: 0px 10px;
+
+  @media (max-width: 500px) {
+    height: 100%;
+  }
+
+  
 }
 
 .edu-heading {
   width: 100%;
+
+  @media (max-width: 500px) {
+    margin-top: 350px;
+    margin-bottom: 100px;
+  }
 }
 
 .edu-head {
@@ -51,6 +62,10 @@
 
   @media (max-width: 920px) {
     text-align: left;
+  }
+
+  @media (max-width: 500px) {
+    width: 30%;
   }
 }
 

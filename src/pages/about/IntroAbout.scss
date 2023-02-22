@@ -18,6 +18,10 @@
   text-align: center;
   background-color: #e63946;
   padding: 0px 10px;
+
+  @media (max-width: 500px) {
+    height: 7vh;
+  }
 }
 
 .about-intro-title {

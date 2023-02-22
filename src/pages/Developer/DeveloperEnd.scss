@@ -14,6 +14,12 @@
   z-index: 5;
   background-color: #bc6c25;
   margin-top: -30px;
+
+  @media (max-width: 500px) {
+    height: 50vh;
+    margin-top: -200px;
+  }
+  
 }
 
 .dev-container-aboutme {
@@ -23,6 +29,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 500px) {
+    height: 50%;
+  }
+  
 }
 
 .dev-about-text {
@@ -37,8 +48,13 @@
   margin-bottom: 5vw;
   letter-spacing: -0.5px;
 
-  @media (max-width : 900px) {
+  @media (max-width: 900px) {
     font-size: 5vw;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 7vw;
+    margin-top: -1500px;
   }
 }
 
@@ -52,6 +68,10 @@
   margin: 15px auto;
   font-size: 0.9rem !important;
   color: #222222;
+
+  @media (max-width: 500px) {
+    margin-bottom: -1300px;
+  }
 }
 
 .btn {
@@ -72,6 +92,10 @@
   transition: ease-out 0.5s;
   -webkit-transition: ease-out 0.5s;
   -moz-transition: ease-out 0.5s;
+
+  @media (max-width: 500px) {
+    margin-bottom: -500px;
+  }
 }
 
 .btn.btn-border-4::after,

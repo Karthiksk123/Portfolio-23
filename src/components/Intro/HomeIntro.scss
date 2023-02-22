@@ -18,6 +18,12 @@
   text-align: center;
   background-color: #ffbe0b;
   padding: 10px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: max-content;
+    margin-top: -150px;
+  }
 }
 
 .intro-title {
@@ -39,6 +45,10 @@
 
   @media (max-width: 650px) {
     font-size: 5vw;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 8vw;
   }
 }
 
@@ -66,6 +76,10 @@
   @media (max-width: 650px) {
     font-size: 6.5vw;
   }
+
+  @media (max-width: 500px) {
+    font-size: 7vw;
+  }
 }
 
 .intro-desc {
@@ -88,6 +102,10 @@
   @media (max-width: 650px) {
     font-size: 3vw;
   }
+
+  @media (max-width: 500px) {
+    font-size: 4.5vw;
+  }
 }
 
 .lower-section {
@@ -95,6 +113,11 @@
   width: 80%;
   height: 100%;
   z-index: 5;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .container-aboutme {
@@ -104,6 +127,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 500px) {
+    height: 30vh;
+  }
 }
 
 .about-text {
@@ -120,6 +147,10 @@
 
   @media (max-width : 900px) {
     font-size: 5vw;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 8vw;
   }
 }
 
