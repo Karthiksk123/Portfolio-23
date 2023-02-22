@@ -1,6 +1,7 @@
 import React from "react";
 import { timeline } from "motion";
 import { useEffect, useRef } from "react";
+import './Loader.scss'
 
 const Loader = () => {
   function getSectionHeight(element) {
