@@ -23,7 +23,7 @@ const IntroAbout = () => {
         data-aos-delay="500"
       >
         Hey! I am currently pursuing B.E Computer Science and Engineering (Final
-        Year). I have a Project based skills in Full-Stack App Development.
+        Year). I have a Project based skills in Full-Stack web Development.
       </h3>
       <h5
         className="about-intro-desc"

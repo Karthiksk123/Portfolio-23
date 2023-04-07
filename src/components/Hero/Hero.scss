@@ -20,7 +20,8 @@
   line-height: 1.2;
   color: white;
   pointer-events: none;
-
+  overflow-x: hidden;
+  
   @media (max-width : 1220px) {
     font-size: 20vh;
   }

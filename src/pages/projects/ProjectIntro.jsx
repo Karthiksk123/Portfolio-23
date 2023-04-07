@@ -14,7 +14,7 @@ const ProjectIntro = () => {
         data-aos-duration="1000"
         data-aos-delay="400"
       >
-        DEVELOPER
+        PROJECT SHOWCASE
       </p>
       <h3
         className="pr-intro-head"

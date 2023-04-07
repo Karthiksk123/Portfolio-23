@@ -1,8 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import { useEffect } from "react";
-import './DeveloperIntro.scss'
-
+import "./DeveloperIntro.scss";
 
 const DeveloperIntro = () => {
   useEffect(() => {
@@ -24,8 +23,8 @@ const DeveloperIntro = () => {
         data-aos-duration="1000"
         data-aos-delay="500"
       >
-        Hey! I am a Full Stack (MERN) Developer. I have 1+ years of experience
-        in Web App Development.
+        Hello! I'am having specialization in both FRONTEND and BACKEND
+        development , and also aced in managing databases.
       </h3>
       <h5
         className="dev-intro-desc"
@@ -33,10 +32,10 @@ const DeveloperIntro = () => {
         data-aos-duration="1000"
         data-aos-delay="600"
       >
-        The main area of my expertise is Web Development. I can design and
-        develop slick, Interactive, Responsive and Performance Efficient Web &
-        Mobile Applications. I also have some experience of creating websites on
-        CMS like Wordpress.
+        Am i having masters on "Typescript", "React.JS", "Next.JS" in Frontend,
+        "NodeJS", "Express.JS" in Backend, "MongoDB", "MySQL", "MariaDB",
+        "PostgresQL", "GraphQL" in Databases. 
+        { " As a Developer , i ❤ to work Backend more than Frontend."}
       </h5>
     </div>
   );

@@ -14,8 +14,9 @@ $secondary_Yellow_Color: #fff55a;
 }
 
 .about-wrapper {
-  height: calc(100vh);
+  height: 100vh;
   background: #e63946;
+
 }
 .hero-header {
   font-size: 11.7vw;
@@ -26,6 +27,7 @@ $secondary_Yellow_Color: #fff55a;
   line-height: 1.2;
   color: white;
   pointer-events: none;
+  overflow-x: hidden;
 
   @media (max-width: 1220px) {
     font-size: 20vh;

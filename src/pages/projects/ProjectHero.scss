@@ -7,8 +7,10 @@
 }
 
 .pr-hero-wrapper {
-  height: calc(100vh);
+  height: 100%;
   background: #606c38;
+  width: 100%;
+  
 }
 
 .pr-text-bg {
@@ -20,7 +22,8 @@
   line-height: 1.2;
   color: white;
   pointer-events: none;
-
+  overflow-x: hidden;
+  
   @media (max-width : 1220px) {
     font-size: 20vh;
   }
